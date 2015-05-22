@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:Parking="http://schemas.android.com/apk/res-auto" >
+    
+    <item android:id="@+id/Itm_SearchAction_Menu"
+          android:icon="@drawable/ic_action_search"
+          android:title="@string/action_search"
+          Parking:showAsAction="always|collapseActionView"
+          Parking:actionLayout="@layout/my_search_action" />
+    
+    <item
+        android:id="@+id/action_settings"
+		android:icon="@drawable/ic_action_settings"
+        android:title="@string/action_settings"
+        Parking:showAsAction="ifRoom|withText"/>
+    
+    <item
+        android:id="@+id/action_infos"
+		android:icon="@drawable/ic_action_about"
+        android:title="@string/about"
+        Parking:showAsAction="ifRoom|withText"/>
+</menu>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    style="?android:attr/buttonBarStyle"
+    android:gravity="center_horizontal"
+    android:layout_gravity="center_horizontal"
+    android:orientation="horizontal" >
+    
+	<Button 
+	    android:id="@+id/Btn_Cancel_MarkerSelectionDialog"
+	    android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cancel"
+        style="?android:attr/buttonBarButtonStyle" />
+	    
+	<Button 
+		android:id="@+id/Btn_Delete_MarkerSelectionDialog"
+	    android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/delete"
+        style="?android:attr/buttonBarButtonStyle" />
+	
+	<Button 
+		android:id="@+id/Btn_Edit_MarkerSelectionDialog"
+	    android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/edit"
+        style="?android:attr/buttonBarButtonStyle" />
+	    
+</LinearLayout>

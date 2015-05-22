@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gr.teilam.smartcity.parking.views.ParkingView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    
+    <RelativeLayout 
+        android:layout_width="match_parent"
+	    android:layout_height="wrap_content" >
+	    
+        <View 
+            android:id="@+id/Vw_TopBar_ParkingView"
+            android:layout_width="match_parent"
+            android:layout_height="8dp"
+            android:layout_alignParentTop="true"/>
+        
+        <View 
+            android:id="@+id/Vw_LeftBar_ParkingView"
+            android:layout_width="8dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"/>
+        
+        <View 
+            android:id="@+id/Vw_RightBar_ParkingView"
+            android:layout_width="8dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Vw_TopBar_ParkingView"
+            android:layout_toLeftOf="@id/Vw_RightBar_ParkingView"
+            android:layout_toStartOf="@id/Vw_RightBar_ParkingView"
+            android:layout_toRightOf="@id/Vw_LeftBar_ParkingView"
+            android:layout_toEndOf="@id/Vw_LeftBar_ParkingView"
+            android:background="@drawable/shadowed_item"
+            android:orientation="vertical" >
+
+	    	<RelativeLayout
+	    	    android:layout_width="wrap_content"
+	    	    android:layout_height="wrap_content"
+	    	    android:layout_gravity="center_vertical" >
+
+	    	    <ImageButton
+	    	        android:id="@+id/ImgBt_Checkin_ParkingView"
+					android:background="?android:attr/selectableItemBackground"
+	    	        android:layout_width="wrap_content"
+	    	        android:layout_height="wrap_content"
+	    	        android:layout_alignParentRight="true"
+	    	        android:layout_alignParentEnd="true"
+	    	        android:clickable="true"
+	    	        android:contentDescription="@string/title_section3"
+	    	        android:onClick="favoriteButtonClicked" />
+
+			    <TextView
+			        android:id="@+id/TxtVw_Title_ParkingView"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_alignParentLeft="true"
+			        android:layout_alignParentStart="true"
+			        android:layout_centerVertical="true"
+			        android:layout_toLeftOf="@+id/ImgBt_Checkin_ParkingView"
+			        android:layout_toStartOf="@+id/ImgBt_Checkin_ParkingView"
+			        android:layout_marginLeft="8dp"
+			        android:layout_marginStart="8dp"
+			        android:textStyle="bold|italic"
+			        android:gravity="center_vertical" />
+
+		    </RelativeLayout>
+		    <View 
+				android:layout_width="match_parent" 
+				android:layout_height="1dp"
+				android:background="@drawable/ab_background_textured"/>
+		    
+		    <TextView 
+		        android:id="@+id/TxtVw_Region_ParkingView"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_marginLeft="8dp"
+		        android:layout_marginStart="8dp" />
+		    
+		    <View 
+				android:layout_width="match_parent" 
+				android:layout_height="1dp"
+				android:background="@drawable/ab_background_textured"/>
+		    
+		    <TextView 
+		        android:id="@+id/TxtVw_State_District_ParkingView"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_marginLeft="8dp"
+		        android:layout_marginStart="8dp" />
+		    
+		    <View 
+				android:layout_width="match_parent" 
+				android:layout_height="1dp"
+				android:background="@drawable/ab_background_textured"/>
+		    
+		    <TextView 
+		        android:id="@+id/TxtVw_Address_TK_ParkingView"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_marginLeft="8dp"
+		        android:layout_marginStart="8dp" />
+		    
+		    <View 
+				android:layout_width="match_parent" 
+				android:layout_height="1dp"
+				android:background="@drawable/ab_background_textured"/>
+		    
+		    <LinearLayout 
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:orientation="horizontal">
+		        <TextView 
+		        	android:id="@+id/TxtVw_PhoneLabel_ParkingView"
+		        	android:layout_width="wrap_content"
+		        	android:layout_height="wrap_content"
+		        	android:layout_marginLeft="8dp"
+		        	android:layout_marginStart="8dp"
+		        	android:layout_marginRight="5dp"
+		        	android:layout_marginEnd="5dp"
+		        	android:text="@string/phnes_label"/>
+		        
+		        <TextView 
+		        	android:id="@+id/TxtVw_Phone_ParkingView"
+		        	android:layout_width="wrap_content"
+		        	android:layout_height="wrap_content"/>
+		    </LinearLayout>
+		    
+		    <View 
+				android:layout_width="match_parent" 
+				android:layout_height="1dp"
+				android:background="@drawable/ab_background_textured"/>
+		    
+		    <LinearLayout 
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:orientation="horizontal">
+		        <TextView 
+		        	android:id="@+id/TxtVw_FaxLabel_ParkingView"
+		        	android:layout_width="wrap_content"
+		        	android:layout_height="wrap_content"
+		        	android:layout_marginLeft="8dp"
+		        	android:layout_marginStart="8dp"
+		        	android:layout_marginRight="5dp"
+		        	android:layout_marginEnd="5dp"
+		        	android:text="@string/fax_label"/>
+		        <TextView 
+		        	android:id="@+id/TxtVw_Fax_ParkingView"
+		        	android:layout_width="wrap_content"
+		        	android:layout_height="wrap_content"/>
+		    </LinearLayout>
+		
+		    <View 
+				android:layout_width="match_parent" 
+				android:layout_height="1dp"
+				android:background="@drawable/ab_background_textured"/>
+		    
+		    <LinearLayout 
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:orientation="horizontal">
+		        <TextView 
+		        	android:id="@+id/TxtVw_EmailLabel_ParkingView"
+		        	android:layout_width="wrap_content"
+		        	android:layout_height="wrap_content"
+		        	android:layout_marginLeft="8dp"
+		        	android:layout_marginStart="8dp"
+		        	android:layout_marginRight="5dp"
+		        	android:layout_marginEnd="5dp"
+		        	android:text="@string/emai_label"/>
+			    <TextView 
+			        android:id="@+id/TxtVw_Email_TK_ParkingView"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_marginBottom="4dp" />
+		    </LinearLayout>
+
+		</LinearLayout>
+	</RelativeLayout>
+</gr.teilam.smartcity.parking.views.ParkingView>

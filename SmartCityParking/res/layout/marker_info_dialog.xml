@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <LinearLayout 
+        android:id="@+id/LnrLt_Row01_MarkerInfoDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp" >
+		<TextView
+	        android:id="@+id/TxtVw_Title_MarkerInfoDialog"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/title_label"
+	        style="?android:attr/textAppearanceSmall" />
+
+		<EditText
+		    android:id="@+id/EdtTxt_Title_MarkerInfoDialog"
+		    style="?android:attr/textAppearanceSmall"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:inputType="text" />
+
+	</LinearLayout>
+
+    <LinearLayout 
+        android:id="@+id/LnrLt_Row03_MarkerInfoDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp" >
+
+        <TextView
+	        android:id="@+id/TxtVw_District_MarkerInfoDialog"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/district_label"
+	        style="?android:attr/textAppearanceSmall" />
+
+	    <EditText
+	        android:id="@+id/EdtTxt_State_MarkerInfoDialog"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:inputType="text"
+	        style="?android:attr/textAppearanceSmall" />
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:id="@+id/LnrLt_Row04_MarkerInfoDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp" >
+
+        <TextView
+            android:id="@+id/TxtVw_State_MarkerInfoDialog"
+            style="?android:attr/textAppearanceSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/state_label" />
+
+	    <EditText
+	        android:id="@+id/EdtTxt_District_MarkerInfoDialog"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:inputType="text"
+	        style="?android:attr/textAppearanceSmall" />
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:id="@+id/LnrLt_Row05_MarkerInfoDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp" >
+
+        <TextView
+	        android:id="@+id/TxtVw_Region_MarkerInfoDialog"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/region_label"
+	        style="?android:attr/textAppearanceSmall" />
+
+	    <EditText
+	        android:id="@+id/EdtTxt_Region_MarkerInfoDialog"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:inputType="text"
+	        style="?android:attr/textAppearanceSmall" />
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:id="@+id/LnrLt_Row06_MarkerInfoDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp" >
+
+        <TextView
+	        android:id="@+id/TxtVw_Address_MarkerInfoDialog"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/address_label"
+	        style="?android:attr/textAppearanceSmall" />
+
+	    <EditText
+	        android:id="@+id/EdtTxt_Address_MarkerInfoDialog"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:inputType="text"
+	        style="?android:attr/textAppearanceSmall" />
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:id="@+id/LnrLt_Row07_MarkerInfoDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp" >
+
+        <TextView
+	        android:id="@+id/TxtVw_TK_MarkerInfoDialog"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/tk_label"
+	        style="?android:attr/textAppearanceSmall" />
+
+	    <EditText
+	        android:id="@+id/EdtTxt_TK_MarkerInfoDialog"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:inputType="number"
+	        style="?android:attr/textAppearanceSmall" />
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:id="@+id/LnrLt_Row08_MarkerInfoDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp" >
+
+        <TextView
+	        android:id="@+id/TxtVw_Phone_MarkerInfoDialog"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/phone_label"
+	        style="?android:attr/textAppearanceSmall" />
+
+	    <EditText
+	        android:id="@+id/EdtTxt_Phone_MarkerInfoDialog"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:inputType="text"
+	        style="?android:attr/textAppearanceSmall" />
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:id="@+id/LnrLt_Row09_MarkerInfoDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp" >
+
+        <TextView
+	        android:id="@+id/TxtVw_Fax_MarkerInfoDialog"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/fax_label"
+	        style="?android:attr/textAppearanceSmall" />
+
+	    <EditText
+	        android:id="@+id/EdtTxt_Fax_MarkerInfoDialog"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:inputType="phone"
+	        style="?android:attr/textAppearanceSmall" />
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:id="@+id/LnrLt_Row10_MarkerInfoDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp" >
+
+        <TextView
+	        android:id="@+id/TxtVw_Email_MarkerInfoDialog"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/region_label"
+	        style="?android:attr/textAppearanceSmall" />
+
+	    <EditText
+	        android:id="@+id/EdtTxt_Email_MarkerInfoDialog"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:inputType="textEmailAddress"
+	        style="?android:attr/textAppearanceSmall" />
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:id="@+id/LnrLt_Row11_MarkerInfoDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp" >
+
+        <TextView
+	        android:id="@+id/TxtVw_Remarks_MarkerInfoDialog"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/remarks_label"
+	        style="?android:attr/textAppearanceSmall" />
+
+	    <EditText
+	        android:id="@+id/EdtTxt_Remarks_MarkerInfoDialog"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:inputType="text"
+	        style="?android:attr/textAppearanceSmall" />
+    </LinearLayout>
+    <LinearLayout 
+        android:id="@+id/LnrLt_Row12_MarkerInfoDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        style="?android:attr/buttonBarStyle"
+        android:orientation="horizontal" >
+	    <Button 
+	        android:id="@+id/Btn_Cancel_MarkerInfoDialog"
+	        android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="@string/cancel"
+        	style="?android:attr/buttonBarButtonStyle" />
+	    
+	    <Button 
+	        android:id="@+id/Btn_Submit_MarkerInfoDialog"
+	        android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="@string/submit"
+        	style="?android:attr/buttonBarButtonStyle" />
+    </LinearLayout>
+    
+</LinearLayout>

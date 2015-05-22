@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:onClick="goToGoogleMap" >
+    
+    <ImageButton
+		android:id="@+id/ImgBt_Favorite_MarkerContent"
+		android:background="?android:attr/selectableItemBackground"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+	    android:clickable="true"
+	    android:contentDescription="@string/title_section3"
+	    android:onClick="favoriteButtonClicked" />
+    
+    <TextView
+        android:id="@+id/TxtVw_Title_MarkerContent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/ImgBt_Favorite_MarkerContent"
+        android:layout_toEndOf="@id/ImgBt_Favorite_MarkerContent"
+        android:layout_alignParentTop="true"
+        style="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/TxtVw_Address_MarkerContent"
+        style="?android:attr/textAppearanceSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TxtVw_Title_MarkerContent"
+        android:layout_toEndOf="@+id/TxtVw_Title_MarkerContent"
+        android:layout_toRightOf="@id/ImgBt_Favorite_MarkerContent" />
+
+</RelativeLayout>
+
+
+<!-- 
+<RatingBar
+        android:id="@+id/RtgBr_Favorite_MarkerContent"
+        style="?android:attr/ratingBarStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toRightOf="@id/ImgBt_Favorite_MarkerContent"
+        android:layout_toEndOf="@id/ImgBt_Favorite_MarkerContent"
+        android:layout_centerVertical="true"
+        android:numStars="1" />
+ -->
